@@ -18,6 +18,16 @@ wget https://raw.githubusercontent.com/JeffW6/vim/master/vimrc
 mv vimrc ~/.vimrc
 ```
 
+If you can't connect raw.githubusercontent.com, please modify this file:
+```
+sudo vim /etc/hosts
+```
+Add the following line to the this file.
+```
+199.232.68.133 raw.githubusercontent.com
+```
+It works.
+
 - Alternatively clone the repo.
 ```
 cd ~/.vim
